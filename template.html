@@ -1,0 +1,159 @@
+"""
+
+    <!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Package Prediction</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-image: url('https://assets.cntraveller.in/photos/657721218e8a386390b4cafc/16:9/w_1280,c_limit/Female_chefs%20(1).png');
+            background-position: center;
+            margin: 10;
+            padding: 10;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 200;
+            padding: 180;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #007BFF;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        form {
+            text-align: left;
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 15px;
+            margin: 15px 0;
+            border: none;
+            border-bottom: 2px solid #007BFF;
+            font-size: 18px;
+            background-color: transparent;
+            color: #333;
+            transition: border-bottom 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="number"]:focus {
+            border-bottom: 2px solid #0056b3;
+            outline: none;
+        }
+
+        input[type="checkbox"],
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        p#prediction {
+            margin-top: 20px;
+            font-size: 24px;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Travel Package Prediction</h1>
+        <form action="/predict" method="POST">
+            <label for="Package Name">Package Name:</label>
+            <input type="text" name="Package Name" placeholder="Custom Package" value="A Grand Week in North East - Lachung Special">
+
+            <label for="Destination">Destination:</label>
+            <input type="text" name="Destination" placeholder="Custom Destination" value="Gangtok|Lachung|Gangtok|Darjeeling">
+
+            <label for="Itinerary">Itinerary:</label>
+            <input type="text" name="Itinerary" placeholder="Custom Itinerary" value="2N Gangtok . 2N Lachung . 1N Gangtok . 2N Darjeeling">
+
+            <label for="Places Covered">Places Covered:</label>
+            <input type="text" name="Places Covered" placeholder="Custom Places" value="Gangtok|Lachung|Gangtok|Darjeeling">
+
+            <label for="Hotel Details">Hotel Details:</label>
+            <input type="text" name="Hotel Details" placeholder="Custom Hotel Details" value="Lemon Tree Hotel  Gangtok:4.2|Summit Alpine Resort, Lachung- MMT Holidays Special:4.2|Lemon Tree Hotel  Gangtok:4.4|Ramada by Wyndham Darjeeling Gandhi Road:">
+
+            <label for="Airline">Airline:</label>
+            <input type="text" name="Airline" placeholder="Custom Airline" value="Air India|IndiGo">
+
+            <label for="Sightseeing Places Covered">Sightseeing Places Covered:</label>
+            <input type="text" name="Sightseeing Places Covered" placeholder="Custom Sightseeing" value="Baba Mandir | MG Road - Walk | Visit to Lake Tsomgo with Yak Safari | Snacks at Changu lake (Winter Special) | Yumthang Valley | Hot Spring">
+
+            <label for="Cancellation Rules">Cancellation Rules:</label>
+            <input type="text" name="Cancellation Rules" placeholder="Custom Cancellation Rules" value="Not Available">
+
+
+            <label for="Package Type_Standard">Package Type_Standard:</label>
+            <input type="checkbox" name="Package Type_Standard" value="1" checked>
+
+            <label for="Package Type_Premium">Package Type_Premium:</label>
+            <input type="checkbox" name="Package Type_Premium" value="1">
+
+            <label for="Package Type_Luxury">Package Type_Luxury:</label>
+            <input type="checkbox" name="Package Type_Luxury" value="1">
+
+            <label for="Travel_Month">Travel Month:</label>
+            <input type="number" name="Travel_Month" min="1" max="12" placeholder="Travel Month" value="5">
+
+            <label for="Package Type_Budget">Package Type_Budget:</label>
+            <input type="checkbox" name="Package Type_Budget" value="1">
+
+            <label for="Package Type_Deluxe">Package Type_Deluxe:</label>
+            <input type="checkbox" name="Package Type_Deluxe" value="1">
+
+            <label for="Hotel Ratings">Hotel Ratings:</label>
+            <input type="number" name="Hotel Ratings" placeholder="Hotel Ratings" value="4.5">
+
+            <label for="Start City_New Delhi">Start City_New Delhi:</label>
+            <input type="checkbox" name="Start City_New Delhi" value="1">
+
+            <label for="Start City_Mumbai">Start City_Mumbai:</label>
+            <input type="checkbox" name="Start City_Mumbai" value="1">
+
+            <label for="Travel_DayOfWeek">Travel Day of Week:</label>
+            <input type="number" name="Travel_DayOfWeek" min="0" max="6" placeholder="Travel Day of Week" value="2">
+
+            <label for="Travel_Year">Travel Year:</label>
+            <input type="number" name="Travel_Year" min="2023" max="2123" placeholder="Travel Year" value="2023">
+
+            <input type="submit" value="Predict">
+        </form>
+        <p id="prediction"></p>
+    </div>
+</body>
+</html>
+
+
+    """
