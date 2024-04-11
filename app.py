@@ -164,9 +164,9 @@ input_data = {
 }
 import joblib
 # Load the models from the files
-loaded_lr_model = joblib.load('Preprocessing modules\lr_model.joblib')
-loaded_pca = joblib.load('Preprocessing modules\pca.joblib')
-loaded_scaler = joblib.load('Preprocessing modules\scaler.joblib')
+loaded_lr_model = joblib.load('Preprocessing_models\lr_model.joblib')
+loaded_pca = joblib.load('Preprocessing_models\pca.joblib')
+loaded_scaler = joblib.load('Preprocessing_models\scaler.joblib')
 
 # predicted_price = str(predict_price(input_data, loaded_lr_model, loaded_pca, loaded_scaler))[-10:]
 # print(f'Predicted Per Person Price: ${predicted_price}')
