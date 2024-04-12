@@ -26,9 +26,11 @@ Use techniques like scaling and normalization to prepare the features for modeli
     - ![Screenshot 2024-04-12 115507](https://github.com/Sarthaksaraf96/Travel-Pakage-Prediction-Pricee/assets/132260196/d1a3b1a0-b3f1-4a74-877e-c29a6e423548)
 
 
-#### REST API Development:
+#### RESTful API Development:
 - Use Flask to create a RESTful API that exposes endpoints for predicting travel package prices.
 - Implement data validation and error handling to ensure the API's robustness.
+  - ![Screenshot 2024-04-12 152637](https://github.com/Sarthaksaraf96/Travel-Pakage-Pricee-Prediction/assets/132260196/0cb717e0-639e-4bc7-83c2-61897ee757a8)
+
 
 #### Containerization with Docker:
 - Dockerized the Flask application to create a lightweight, portable container.
