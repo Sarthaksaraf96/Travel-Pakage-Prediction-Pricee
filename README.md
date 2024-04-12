@@ -78,5 +78,5 @@ Use techniques like scaling and normalization to prepare the features for modeli
 
 #### Version Control - Git
 -Version control systems are software tools that help software teams manage changes to source code over time.
- - ![Screenshot 2024-04-12 153211](https://github.com/Sarthaksaraf96/Travel-Pakage-Pricee-Prediction/assets/132260196/e98c2ee2-bdac-4803-8ed9-043b72f83d95)
+ - ![Screenshot 2024-04-12 153211](https://github.com/Sarthaksaraf96/Travel-Pakage-Pricee-Prediction/assets/132260196/289548d1-9347-443d-aa44-2ed06629dc55)
 
