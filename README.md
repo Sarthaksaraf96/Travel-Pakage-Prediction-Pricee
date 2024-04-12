@@ -75,3 +75,8 @@ Use techniques like scaling and normalization to prepare the features for modeli
 #### Monitoring and Maintenance:
 - Can be Further monitored and logged to track the API's performance and detect issues.
 - Can help to Regularly update and maintain the model and API to incorporate new features and improve performance.
+
+#### Version Control - Git
+-Version control systems are software tools that help software teams manage changes to source code over time.
+ - ![Screenshot 2024-04-12 153211](https://github.com/Sarthaksaraf96/Travel-Pakage-Pricee-Prediction/assets/132260196/e98c2ee2-bdac-4803-8ed9-043b72f83d95)
+
