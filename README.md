@@ -50,20 +50,20 @@ Use techniques like scaling and normalization to prepare the features for modeli
   - AWS provides various integration options with third-party services through AWS Marketplace and has extensive developer tools for building integrations. AWS Step Functions can be used for orchestrating workflows and integrating services.
 
 
-Azure:
-- Azure provides services like Azure App Service for web and mobile app hosting, Azure SQL Database for database management, and Azure Functions for serverless computing. Azure Cognitive Services offers capabilities for vision, speech, and language recognition. Azure Maps is a geospatial platform that can be used for mapping and location-based services.
-- Scalability :
-  - Azure Autoscale can dynamically adjust resources, and Azure Functions scale automatically. Azure Virtual Machines come in various sizes for scalability, and Azure Kubernetes Service (AKS) is available for containerized applications.
-- Integration :
-  - Azure has a strong integration offering with Azure Logic Apps for workflow automation, Azure Service Bus for messaging, and Azure Event Grid for event-driven architectures. Azure API Management can be used for managing APIs.
+- Azure:
+  - Azure provides services like Azure App Service for web and mobile app hosting, Azure SQL Database for database management, and Azure Functions for serverless computing. Azure Cognitive Services offers capabilities for vision, speech, and language recognition. Azure Maps is a geospatial platform that can be used for mapping and location-based services.
+  - Scalability :
+    - Azure Autoscale can dynamically adjust resources, and Azure Functions scale automatically. Azure Virtual Machines come in various sizes for scalability, and Azure Kubernetes Service (AKS) is available for containerized applications.
+  - Integration :
+    - Azure has a strong integration offering with Azure Logic Apps for workflow automation, Azure Service Bus for messaging, and Azure Event Grid for event-driven architectures. Azure API Management can be used for managing APIs.
 
 
-Google Cloud:
-- provides an App Engine for hosting web applications, Cloud SQL for database management, and Google Cloud Functions for serverless computing. Google Maps Platform provides geolocation and mapping services, while Cloud Vision API and Natural Language API offer image and text analysis capabilities. Google's AI and ML tools, like TensorFlow, can be utilized for advanced analytics and recommendation systems.
-- Scalability :
-  - Google Cloud offers autoscaling features, and Google Kubernetes Engine (GKE) is a managed Kubernetes service for containerized applications. Google App Engine automatically scales web applications based on traffic.
-- Integration :
-  - Google Cloud offers Pub/Sub for messaging and Cloud Functions for event-driven integrations. Google Cloud Endpoints is a tool for creating, deploying, and managing APIs. Firebase Cloud Functions can also be used for serverless integrations.
+- Google Cloud:
+  - provides an App Engine for hosting web applications, Cloud SQL for database management, and Google Cloud Functions for serverless computing. Google Maps Platform provides geolocation and mapping services, while Cloud Vision API and Natural Language API offer image and text analysis capabilities. Google's AI and ML tools, like TensorFlow, can be utilized for advanced analytics and recommendation systems.
+  - Scalability :
+    - Google Cloud offers autoscaling features, and Google Kubernetes Engine (GKE) is a managed Kubernetes service for containerized applications. Google App Engine automatically scales web applications based on traffic.
+  - Integration :
+    - Google Cloud offers Pub/Sub for messaging and Cloud Functions for event-driven integrations. Google Cloud Endpoints is a tool for creating, deploying, and managing APIs. Firebase Cloud Functions can also be used for serverless integrations.
 
 > [!TIP]
 > In summary, AWS, Azure, and Google Cloud each offer powerful and comprehensive cloud computing solutions, catering to diverse needs and preferences in the digital landscape. AWS boasts a vast array of services, providing a solid foundation for building robust applications, and is often favored for its extensive ecosystem.
