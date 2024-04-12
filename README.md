@@ -22,14 +22,17 @@ Use techniques like scaling and normalization to prepare the features for modeli
 - Split the data into training and testing sets.
 - Develop a machine learning model, such as linear regression or decision tree regression, to predict travel package prices.
 - Evaluate the model using metrics like Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE).
+- Model Performance :
+    - ![Screenshot 2024-04-12 115507](https://github.com/Sarthaksaraf96/Travel-Pakage-Prediction-Pricee/assets/132260196/d1a3b1a0-b3f1-4a74-877e-c29a6e423548)
+
 
 #### REST API Development:
 - Use Flask to create a RESTful API that exposes endpoints for predicting travel package prices.
 - Implement data validation and error handling to ensure the API's robustness.
 
 #### Containerization with Docker:
--Dockerize the Flask application to create a lightweight, portable container.
--Use Docker Compose to define and run multi-container Docker applications.
+- Dockerize the Flask application to create a lightweight, portable container.
+- Used Docker Compose to define and run multi-container Docker applications.
 
 #### Testing and Validation:
 - Test the API endpoints to ensure they return the expected results.
