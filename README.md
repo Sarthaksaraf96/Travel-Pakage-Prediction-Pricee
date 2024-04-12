@@ -44,10 +44,10 @@ Use techniques like scaling and normalization to prepare the features for modeli
 
 - AWS:
   - AWS offers a wide range of services suitable for building travel applications. Amazon EC2 can host web servers and application backends, while Amazon RDS can handle databases. AWS Lambda allows for serverless functions, and services like Amazon S3, Amazon Rekognition, and Amazon Polly can be used for media storage, image recognition, and text-to-speech capabilities. Additionally, AWS offers AI and ML tools like Amazon Comprehend for natural language processing.
-- Scalability :
-  - AWS provides Auto Scaling and Elastic Load Balancing to adjust resources based on traffic automatically. AWS Lambda that allows for event-driven scalability. It has many instance types to cater to varying performance requirements.
-- Integration :
-  - AWS provides various integration options with third-party services through AWS Marketplace and has extensive developer tools for building integrations. AWS Step Functions can be used for orchestrating workflows and integrating services.
+  - Scalability :
+    - AWS provides Auto Scaling and Elastic Load Balancing to adjust resources based on traffic automatically. AWS Lambda that allows for event-driven scalability. It has many instance types to cater to varying performance requirements.
+  - Integration :
+    - AWS provides various integration options with third-party services through AWS Marketplace and has extensive developer tools for building integrations. AWS Step Functions can be used for orchestrating workflows and integrating services.
 
 
 - Azure:
