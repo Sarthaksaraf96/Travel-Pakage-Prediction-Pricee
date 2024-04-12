@@ -68,7 +68,7 @@ def predict_price(input_data, lr_model, pca, scaler):
 
     # Make predictions using the trained Linear Regression model
     y_pred = lr_model.predict(X)
-
+    
     return y_pred[0]
 
 df_input = pd.read_csv('Data\marketing_sample_for_makemytrip_com-travel__20190901_20190930__30k_data.csv',on_bad_lines='skip')
@@ -232,7 +232,8 @@ def index():
         prediction = predict_price(data, loaded_lr_model, loaded_pca, loaded_scaler)//10
         prediction = str(prediction)[-7:]
 
-        return jsonify({'prediction': prediction})
+        # return jsonify({'prediction': prediction})
+        return render_template('result_template.html', prediction=prediction, places_covered=data['Places Covered'], airline=data['Airline'], itinerary=data['Itinerary'])
 
 
 if __name__ == "__main__":
