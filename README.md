@@ -40,27 +40,31 @@ Use techniques like scaling and normalization to prepare the features for modeli
 
 #### Model Deployment Option:
 - Exploring deployment platforms for machine learning models in the travel industry context
-  
-- Solution: Amazon Web Services (AWS), Microsoft Azure, and Google Cloud are three of the leading cloud computing platforms in the world. They function by providing a vast array of cloud services hosted in data centers distributed globally. These services encompass computing, storage, databases, networking, analytics, machine learning, and more. Users access and manage these services through web-based consoles, command-line interfaces, or APIs, enabling them to build, deploy, and scale applications and infrastructure without the need for physical hardware. Each cloud provider offers unique features and tools tailored to diverse business needs, enabling organizations to leverage the cloud to innovate, streamline operations, and achieve scalability and flexibility in their IT infrastructure. AWS, Azure, and Google Cloud continually expand their service offerings and global presence to meet the evolving demands of businesses and developers worldwide, making cloud computing a foundational component of modern IT architecture.
-ㅤ
-AWS:
-- AWS offers a wide range of services suitable for building travel applications. Amazon EC2 can host web servers and application backends, while Amazon RDS can handle databases. AWS Lambda allows for serverless functions, and services like Amazon S3, Amazon Rekognition, and Amazon Polly can be used for media storage, image recognition, and text-to-speech capabilities. Additionally, AWS offers AI and ML tools like Amazon Comprehend for natural language processing.
-- AWS provides Auto Scaling and Elastic Load Balancing to adjust resources based on traffic automatically. AWS Lambda that allows for event-driven scalability. It has many instance types to cater to varying performance requirements.
-- Integration: 
-    - AWS provides various integration options with third-party services through AWS Marketplace and has extensive developer tools for building integrations. AWS Step Functions can be used for orchestrating workflows and integrating services.
+- Amazon Web Services (AWS), Microsoft Azure, and Google Cloud are three of the leading cloud computing platforms in the world. They function by providing a vast array of cloud services hosted in data centers distributed globally. These services encompass computing, storage, databases, networking, analytics, machine learning, and more. Users access and manage these services through web-based consoles, command-line interfaces, or APIs, enabling them to build, deploy, and scale applications and infrastructure without the need for physical hardware. Each cloud provider offers unique features and tools tailored to diverse business needs, enabling organizations to leverage the cloud to innovate, streamline operations, and achieve scalability and flexibility in their IT infrastructure. AWS, Azure, and Google Cloud continually expand their service offerings and global presence to meet the evolving demands of businesses and developers worldwide, making cloud computing a foundational component of modern IT architecture.
+
+
+- AWS:
+  - AWS offers a wide range of services suitable for building travel applications. Amazon EC2 can host web servers and application backends, while Amazon RDS can handle databases. AWS Lambda allows for serverless functions, and services like Amazon S3, Amazon Rekognition, and Amazon Polly can be used for media storage, image recognition, and text-to-speech capabilities. Additionally, AWS offers AI and ML tools like Amazon Comprehend for natural language processing.
+- Scalability:
+  - AWS provides Auto Scaling and Elastic Load Balancing to adjust resources based on traffic automatically. AWS Lambda that allows for event-driven scalability. It has many instance types to cater to varying performance requirements.
+- Integration:
+  - AWS provides various integration options with third-party services through AWS Marketplace and has extensive developer tools for building integrations. AWS Step Functions can be used for orchestrating workflows and integrating services.
 
 
 Azure:
 - Azure provides services like Azure App Service for web and mobile app hosting, Azure SQL Database for database management, and Azure Functions for serverless computing. Azure Cognitive Services offers capabilities for vision, speech, and language recognition. Azure Maps is a geospatial platform that can be used for mapping and location-based services.
-- Azure Autoscale can dynamically adjust resources, and Azure Functions scale automatically. Azure Virtual Machines come in various sizes for scalability, and Azure Kubernetes Service (AKS) is available for containerized applications.
+-Scalability:
+ - Azure Autoscale can dynamically adjust resources, and Azure Functions scale automatically. Azure Virtual Machines come in various sizes for scalability, and Azure Kubernetes Service (AKS) is available for containerized applications.
 - Integration :
-      - Azure has a strong integration offering with Azure Logic Apps for workflow automation, Azure Service Bus for messaging, and Azure Event Grid for event-driven architectures. Azure API Management can be used for managing APIs.
+  - Azure has a strong integration offering with Azure Logic Apps for workflow automation, Azure Service Bus for messaging, and Azure Event Grid for event-driven architectures. Azure API Management can be used for managing APIs.
 
 
 Google Cloud:
 - provides an App Engine for hosting web applications, Cloud SQL for database management, and Google Cloud Functions for serverless computing. Google Maps Platform provides geolocation and mapping services, while Cloud Vision API and Natural Language API offer image and text analysis capabilities. Google's AI and ML tools, like TensorFlow, can be utilized for advanced analytics and recommendation systems.
-- Google Cloud offers autoscaling features, and Google Kubernetes Engine (GKE) is a managed Kubernetes service for containerized applications. Google App Engine automatically scales web applications based on traffic.
-- Google Cloud offers Pub/Sub for messaging and Cloud Functions for event-driven integrations. Google Cloud Endpoints is a tool for creating, deploying, and managing APIs. Firebase Cloud Functions can also be used for serverless integrations.
+- Scalability:
+  - Google Cloud offers autoscaling features, and Google Kubernetes Engine (GKE) is a managed Kubernetes service for containerized applications. Google App Engine automatically scales web applications based on traffic.
+-Integration:
+ - Google Cloud offers Pub/Sub for messaging and Cloud Functions for event-driven integrations. Google Cloud Endpoints is a tool for creating, deploying, and managing APIs. Firebase Cloud Functions can also be used for serverless integrations.
 
 > [!TIP]
 > In summary, AWS, Azure, and Google Cloud each offer powerful and comprehensive cloud computing solutions, catering to diverse needs and preferences in the digital landscape. AWS boasts a vast array of services, providing a solid foundation for building robust applications, and is often favored for its extensive ecosystem.
