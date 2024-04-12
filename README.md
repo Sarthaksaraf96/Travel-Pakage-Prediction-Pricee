@@ -39,7 +39,7 @@ Use techniques like scaling and normalization to prepare the features for modeli
 
 #### Model Deployment Option:
 - Exploring deployment platforms for machine learning models in the travel industry context
-- Amazon Web Services (AWS), Microsoft Azure, and Google Cloud are three of the leading cloud computing platforms in the world. They function by providing a vast array of cloud services hosted in data centers distributed globally. These services encompass computing, storage, databases, networking, analytics, machine learning, and more. Users access and manage these services through web-based consoles, command-line interfaces, or APIs, enabling them to build, deploy, and scale applications and infrastructure without the need for physical hardware. Each cloud provider offers unique features and tools tailored to diverse business needs, enabling organizations to leverage the cloud to innovate, streamline operations, and achieve scalability and flexibility in their IT infrastructure. AWS, Azure, and Google Cloud continually expand their service offerings and global presence to meet the evolving demands of businesses and developers worldwide, making cloud computing a foundational component of modern IT architecture.
+- **Amazon Web Services (AWS), Microsoft Azure, and Google Cloud** are three of the leading cloud computing platforms in the world. They function by providing a vast array of cloud services hosted in data centers distributed globally. These services encompass computing, storage, databases, networking, analytics, machine learning, and more. Users access and manage these services through web-based consoles, command-line interfaces, or APIs, enabling them to build, deploy, and scale applications and infrastructure without the need for physical hardware. Each cloud provider offers unique features and tools tailored to diverse business needs, enabling organizations to leverage the cloud to innovate, streamline operations, and achieve scalability and flexibility in their IT infrastructure. AWS, Azure, and Google Cloud continually expand their service offerings and global presence to meet the evolving demands of businesses and developers worldwide, making cloud computing a foundational component of modern IT architecture.
 
 
 - AWS:
@@ -59,7 +59,7 @@ Use techniques like scaling and normalization to prepare the features for modeli
 
 
 - Google Cloud:
-  - provides an App Engine for hosting web applications, Cloud SQL for database management, and Google Cloud Functions for serverless computing. Google Maps Platform provides geolocation and mapping services, while Cloud Vision API and Natural Language API offer image and text analysis capabilities. Google's AI and ML tools, like TensorFlow, can be utilized for advanced analytics and recommendation systems.
+  - Google Cloud provides an App Engine for hosting web applications, Cloud SQL for database management, and Google Cloud Functions for serverless computing. Google Maps Platform provides geolocation and mapping services, while Cloud Vision API and Natural Language API offer image and text analysis capabilities. Google's AI and ML tools, like TensorFlow, can be utilized for advanced analytics and recommendation systems.
   - Scalability :
     - Google Cloud offers autoscaling features, and Google Kubernetes Engine (GKE) is a managed Kubernetes service for containerized applications. Google App Engine automatically scales web applications based on traffic.
   - Integration :
