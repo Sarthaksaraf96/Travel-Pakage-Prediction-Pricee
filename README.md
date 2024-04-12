@@ -2,9 +2,13 @@
 
 A machine learning project that Travel Package Price Prediction Model utilizes advanced regression techniques to accurately forecast travel package prices. To facilitate seamless integration, a RESTful API has been constructed using Flask. For enhanced scalability, the model is deployed using Docker. Additionally, various deployment strategies on cloud platforms have been explored to ensure cost efficiency and reliability.
 
+### Output:
+![Output video - ](https://github.com/Sarthaksaraf96/Travel-Pakage-Prediction-Pricee/assets/132260196/f50a6c50-9586-4c65-bdd0-b8404ae95cf6)
+
 
 ## Project Workflow
 #### Data Collection and Preparation:
+- Dataset Link : [dataset link](https://drive.google.com/file/d/1eQPD_UG5C6YfvduVlX7PckwVwGuBnCBw/view)
 - Gather travel package data, including features such as destination, duration, and amenities.
 Clean and preprocess the data, handling missing values and encoding categorical variables.
 
